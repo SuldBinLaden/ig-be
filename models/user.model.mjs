@@ -12,6 +12,7 @@ const UserSchema = new mongoose.Schema(
 
     createdAt: { type: Date },
     updatedAt: { type: Date },
+    profilePicture:{type:String},
   },
   { timestamps: true }
 );
